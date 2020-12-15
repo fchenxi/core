@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DOT_CICD_CLOUD_PROVIDER: github
-      DOT_CICD_TARGET: dotcms-release
+      DOT_CICD_TARGET: core
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       GITHUB_USER: dotcmsbuild
       GITHUB_USER_TOKEN: ${{ secrets.USER_TOKEN }}
