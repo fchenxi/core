@@ -48,6 +48,6 @@ jobs:
       - name: Build distro files
         run: |
           dotcicd/library/pipeline.sh buildDistro
-      - name: Build distro files
+      - name: Generate Javadoc
         run: |
           dotcicd/library/pipeline.sh generateJavadoc
